@@ -1,14 +1,9 @@
 {
-  "name": "cst8917lab3",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "start": "func start",
-    "test": "echo \"No tests yet...\""
-  },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
-  },
-  "devDependencies": {},
-  "main": "src/functions/*.js"
+    "@azure/functions": "^4.2.0",
+    "axios": "^1.6.7",
+    "azure-storage": "^2.10.7",
+    "durable-functions": "^2.0.0",
+    "uuid": "^3.3.2"
+  }
 }
