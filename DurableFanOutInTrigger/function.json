@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "type": "orchestrationTrigger",
+      "direction": "in",
+      "name": "context"
+    },
+    {
+      "type": "serviceBus",
+      "direction": "out",
+      "name": "outputSbQueueMsg",
+      "queueName": "lab3queue",
+       "accessRights_": "Manage",
+       "connection": "lab3servicebus_RootManageSharedAccessKey_SERVICEBUS3"
+    }
+  ]
+}
+

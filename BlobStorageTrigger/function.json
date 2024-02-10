@@ -1,0 +1,11 @@
+﻿{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "lab3container/{name}",
+      "connection": "sbqstorage_STORAGE"
+    }
+  ]
+}

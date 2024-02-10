@@ -1,0 +1,12 @@
+﻿{
+  "bindings": [
+    {
+      "name": "outputSbQueueMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "lab3queue",
+      "accessRights_": "Manage",
+      "connection": "lab3servicebus_RootManageSharedAccessKey_SERVICEBUS3"
+    }
+  ]
+}
